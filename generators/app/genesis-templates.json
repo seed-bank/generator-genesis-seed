@@ -1,0 +1,18 @@
+{
+	"globals": {
+		"config-keys": [
+			{"config-key": "generator-name"}
+		]
+	},
+	"files": 
+	[
+		{
+			"name": "Root Files",
+			"folder-path": "generator-name/",
+			"files":[
+				{"name": "gitignore", "override": ".gitignore"},
+				{"name": ".editorconfig"}
+			]
+		}
+	]
+}

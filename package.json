@@ -1,0 +1,38 @@
+{
+  "name": "generator-genesis-seed",
+  "version": "0.1.0",
+  "description": "Genesis is a generator that allows author to easily create yeoman generators simply.",
+  "main": "generators/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman",
+    "generator",
+    "genesis"
+  ],
+  "devDependencies": {
+    "yeoman-test": "^1.6.0",
+    "yeoman-assert": "^3.0.0",
+    "nsp": "^2.6.3",
+    "eslint": "^4.1.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "jest": "^19.0.2",
+    "jest-cli": "^20.0.0",
+    "genesis-seed": "0.1.0"
+  },
+  "dependencies": {
+    "casual": "^1.5.14",
+    "chalk": "^1.1.3",
+    "checksum": "^0.1.1",
+    "lodash": "^4.17.4",
+    "underscore.string": "^3.3.4",
+    "yeoman-generator": "^1.0.0",
+    "yosay": "^2.0.0"
+  },
+  "author": "\"ReasonTheArchitect\"",
+  "license": "MIT"
+}
