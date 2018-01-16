@@ -10,7 +10,10 @@
 			"name": "Root Files",
 			"folder-path": "generators/submodule/",
 			"files":[
-				{"name": "_README.md"}
+				{"name": "_README.md"},
+				{"name": "index.js"},
+				{"name": "genesis-templates.json"},
+				{"name": "templates/.gitkeep"}
 			]
 		}
 	]
