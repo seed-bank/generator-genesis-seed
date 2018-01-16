@@ -36,7 +36,7 @@
 		},
 		{
 			"name": "Template submodule",
-			"folder-path": "generator-name/generators/template/",
+			"folder-path": "generator-name/generators/init/",
 			"files":[
 				{"name": "index.js"}
 			]
