@@ -11,7 +11,28 @@
 			"folder-path": "generator-name/",
 			"files":[
 				{"name": "gitignore", "override": ".gitignore"},
-				{"name": ".editorconfig"}
+				{"name": ".editorconfig"},
+				{"name": ".eslintignore"},
+				{"name": "gitattributes", "override": ".gitattributes"},
+				{"name": "LICENSE"},
+				{"name": "_package.json"},
+				{"name": "_README.md"}
+			]
+		},
+		{
+			"name": "Root App Files",
+			"folder-path": "generator-name/generators/app/",
+			"files":[
+				{"name": "index.js"},
+				{"name": "genesis-templates.json"}
+			]
+		}
+		,
+		{
+			"name": "App templates",
+			"folder-path": "generator-name/generators/app/templates",
+			"files":[
+				{"name": "_README.md", "override": "_README.md"}
 			]
 		}
 	]

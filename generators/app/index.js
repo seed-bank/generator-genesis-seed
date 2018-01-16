@@ -1,6 +1,6 @@
 'use strict';
 const Generator     = require('yeoman-generator');
-const genesis       = require('genesis-seed');
+const genesis       = require('genesis-seed-tiller');
 const _             = require('lodash');
 
 module.exports = class extends Generator {

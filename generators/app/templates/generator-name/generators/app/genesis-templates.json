@@ -1,0 +1,13 @@
+{
+	"globals": {
+
+	},
+	"files": [
+		{
+			"name": "Root Files",
+			"files":[
+				{"name": "_README.md"}
+			]
+		}
+	]
+}

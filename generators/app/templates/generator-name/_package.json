@@ -1,7 +1,7 @@
 {
-  "name": "generator-genesis-seed",
+  "name": "<%= names.dasherized %>",
   "version": "0.1.0",
-  "description": "Genesis is a generator that allows author to easily create yeoman generators simply.",
+  "description": "<%= description %>",
   "main": "generators/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,11 +9,7 @@
   "files": [
     "generators"
   ],
-  "keywords": [
-    "yeoman",
-    "generator",
-    "genesis"
-  ],
+  "keywords": [],
   "devDependencies": {
     "yeoman-test": "^1.6.0",
     "yeoman-assert": "^3.0.0",
@@ -27,12 +23,12 @@
     "casual": "^1.5.14",
     "chalk": "^1.1.3",
     "checksum": "^0.1.1",
-    "genesis-seed-tiller": "0.0.1",
     "lodash": "^4.17.4",
     "underscore.string": "^3.3.4",
     "yeoman-generator": "^1.0.0",
+    "genesis-seed-tiller": "0.0.1",
     "yosay": "^2.0.0"
   },
-  "author": "\"ReasonTheArchitect\"",
+  "author": "\"<%= author %>\"",
   "license": "MIT"
 }
