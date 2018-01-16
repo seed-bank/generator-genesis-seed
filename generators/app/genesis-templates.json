@@ -39,7 +39,9 @@
 			"name": "Template submodule",
 			"folder-path": "generator-name/generators/init/",
 			"files":[
-				{"name": "index.js"}
+				{"name": "index.js"},
+				{"name": "genesis-templates.json"},
+				{"name": "templates/genesis.json"}
 			]
 		}
 	]

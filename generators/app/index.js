@@ -12,7 +12,6 @@ module.exports = class extends Generator {
         yeoman.data.names.dasherized  = _.kebabCase(yeoman.data["generator-name"]);
         yeoman.data.names.uppercase   = yeoman.data.names.camelized.charAt(0).toUpperCase() + yeoman.data.names.camelized.slice(1);
         yeoman.data.names.humanized   = _.startCase(yeoman.data["generator-name"]);
-        console.log(JSON.stringify(yeoman.data));
         resolve();
       });
     });

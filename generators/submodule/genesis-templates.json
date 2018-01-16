@@ -20,7 +20,8 @@
 			"name": "init Files",
 			"folder-path": "generators/submodule-init/",
 			"files":[
-				{"name": "templates/_genesis.json", "copy": true},
+				{"name": "templates/genesis.json", "copy": true},
+				{"name": "genesis-templates.json"},
 				{"name": "index.js"}
 			]
 		}
