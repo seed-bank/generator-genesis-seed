@@ -27,7 +27,7 @@
     "casual": "^1.5.14",
     "chalk": "^1.1.3",
     "checksum": "^0.1.1",
-    "genesis-seed-tiller": "0.0.1",
+    "genesis-seed-tiller": "0.0.5",
     "lodash": "^4.17.4",
     "underscore.string": "^3.3.4",
     "yeoman-generator": "^1.0.0",

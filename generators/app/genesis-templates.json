@@ -26,13 +26,19 @@
 				{"name": "index.js"},
 				{"name": "genesis-templates.json"}
 			]
-		}
-		,
+		},
 		{
 			"name": "App templates",
 			"folder-path": "generator-name/generators/app/templates",
 			"files":[
-				{"name": "_README.md", "override": "_README.md"}
+				{"name": "_README.md", "override": "_README.md", "copy": true}
+			]
+		},
+		{
+			"name": "Template submodule",
+			"folder-path": "generator-name/generators/template/",
+			"files":[
+				{"name": "index.js"}
 			]
 		}
 	]

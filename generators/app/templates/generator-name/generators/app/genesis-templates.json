@@ -6,7 +6,7 @@
 		{
 			"name": "Root Files",
 			"files":[
-				{"name": "_README.md"}
+				{"name": "_README.md", "copy": true}
 			]
 		}
 	]
