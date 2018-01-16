@@ -5,12 +5,16 @@ const _             = require('lodash');
 
 module.exports = class extends Generator {
   doit() {
-    genesis.bang(this, function (data) {
-      data.names = {};
-      data.names.camelized   = _.camelCase(data["generator-name"]);
-      data.names.dasherized  = _.kebabCase(data["generator-name"]);
-      data.names.uppercase   = data.names.camelized.charAt(0).toUpperCase() + data.names.camelized.slice(1);
-      data.names.humanized   = _.startCase(data["generator-name"]);
+    genesis.bang(this, function (yeoman) {
+      return new Promise(function(resolve, reject) {
+        yeoman.data.names = {};
+        yeoman.data.names.camelized   = _.camelCase(yeoman.data["generator-name"]);
+        yeoman.data.names.dasherized  = _.kebabCase(yeoman.data["generator-name"]);
+        yeoman.data.names.uppercase   = yeoman.data.names.camelized.charAt(0).toUpperCase() + yeoman.data.names.camelized.slice(1);
+        yeoman.data.names.humanized   = _.startCase(yeoman.data["generator-name"]);
+        console.log(JSON.stringify(yeoman.data));
+        resolve();
+      });
     });
   }
 };

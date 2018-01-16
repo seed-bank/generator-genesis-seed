@@ -1,0 +1,11 @@
+{
+	"generator-name": "<%= names.dasherized %>",
+	"description": "<%= description %>",
+	"author": "<%= author %>",
+	"names":{
+		"camelized":"<%= names.camelized %>",
+		"dasherized":"<%= names.dasherized %>",
+		"uppercase":"<%= names.uppercase %>",
+		"humanized":"<%= names.humanized %>"
+	}
+}

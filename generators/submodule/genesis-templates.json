@@ -1,0 +1,17 @@
+{
+	"globals": {
+		"config-keys": [
+			{"config-key": "submodule"}
+		]
+	},
+	"files": 
+	[
+		{
+			"name": "Root Files",
+			"folder-path": "generators/submodule/",
+			"files":[
+				{"name": "_README.md"}
+			]
+		}
+	]
+}

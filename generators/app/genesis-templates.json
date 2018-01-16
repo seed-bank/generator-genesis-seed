@@ -16,6 +16,7 @@
 				{"name": "gitattributes", "override": ".gitattributes"},
 				{"name": "LICENSE"},
 				{"name": "_package.json"},
+				{"name": "_genesis.json"},
 				{"name": "_README.md"}
 			]
 		},

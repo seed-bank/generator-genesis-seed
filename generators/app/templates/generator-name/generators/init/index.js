@@ -4,6 +4,10 @@ const genesis       = require('genesis-seed-tiller');
 
 module.exports = class extends Generator {
   doit() {
-    genesis.bang(this, function (data) {});
+    genesis.bang(this, function (data) {
+      return new Promise(function(resolve, reject) {
+        resolve();
+      });
+    });
   }
 };

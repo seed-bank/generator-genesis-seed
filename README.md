@@ -19,12 +19,12 @@ npm install -g generator-genesis-seed
 ```
 
 3. Change to a directory of your choosing. 
-4. Generate the genesis.config file.
+4. Generate the genesis.json file.
 ```
-yo genesis-seed:template > genesis.config
+yo genesis-seed:init
 ``` 
 
-5. Change the values in the generated file.
+5. Change the values in the generated genesis.json file.
 
 6. Run the generator.
 ```
