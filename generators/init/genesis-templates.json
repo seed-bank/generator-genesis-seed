@@ -5,7 +5,7 @@
 		{
 			"name": "Root Files",
 			"files":[
-				{"name": "genesis.json", "copy": true}
+				{"name": "_genesis.json"}
 			]
 		}
 	]

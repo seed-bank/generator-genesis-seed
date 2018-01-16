@@ -1,6 +1,6 @@
 {
   "name": "generator-genesis-seed",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Genesis is a generator that allows author to easily create yeoman generators simply.",
   "main": "generators/index.js",
   "scripts": {

@@ -1,0 +1,5 @@
+{
+	"generator-name": "<%=name%>",
+	"description": "A description of my generator.",
+	"author": "<%=author%>"
+}

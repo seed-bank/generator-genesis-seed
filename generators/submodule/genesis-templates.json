@@ -15,6 +15,14 @@
 				{"name": "genesis-templates.json"},
 				{"name": "templates/.gitkeep"}
 			]
+		},
+		{
+			"name": "init Files",
+			"folder-path": "generators/submodule-init/",
+			"files":[
+				{"name": "templates/_genesis.json", "copy": true},
+				{"name": "index.js"}
+			]
 		}
 	]
 }
