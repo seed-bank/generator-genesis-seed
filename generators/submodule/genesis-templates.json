@@ -11,7 +11,7 @@
 			"folder-path": "generators/submodule/",
 			"files":[
 				{"name": "_README.md"},
-				{"name": "index.js"},
+				{"name": "_index.js"},
 				{"name": "genesis-templates.json"},
 				{"name": "templates/.gitkeep"}
 			]
@@ -20,9 +20,7 @@
 			"name": "init Files",
 			"folder-path": "generators/submodule-init/",
 			"files":[
-				{"name": "templates/genesis.json", "copy": true},
-				{"name": "genesis-templates.json"},
-				{"name": "index.js"}
+				{"name": "_index.js"}
 			]
 		}
 	]
