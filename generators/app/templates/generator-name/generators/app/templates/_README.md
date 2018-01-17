@@ -1,1 +1,1 @@
-# <%= title %>
+# <%= names.humanized %>

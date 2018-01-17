@@ -1,0 +1,9 @@
+{
+	"names": {
+		"original": "<%= names.original %>",
+		"camelized": "<%= names.camelized %>",
+		"dasherized": "<%= names.dasherized %>",
+		"uppercase": "<%= names.uppercase %>",
+		"humanized": "<%= names.humanized %>"
+	}
+}

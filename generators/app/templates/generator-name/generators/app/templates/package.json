@@ -26,7 +26,7 @@
     "lodash": "^4.17.4",
     "underscore.string": "^3.3.4",
     "yeoman-generator": "^1.0.0",
-    "genesis-seed-tiller": "0.1.0",
+    "genesis-seed-tiller": "0.1.1",
     "yosay": "^2.0.0"
   },
   "author": "\"<%= author %>\"",

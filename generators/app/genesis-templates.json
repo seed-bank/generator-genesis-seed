@@ -41,7 +41,7 @@
 			"files":[
 				{"name": "index.js"},
 				{"name": "genesis-templates.json"},
-				{"name": "templates/genesis.json"}
+				{"name": "templates/_genesis.json", "override": "templates/_genesis.json", "copy": true}
 			]
 		}
 	]
